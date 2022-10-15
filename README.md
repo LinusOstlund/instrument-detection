@@ -6,3 +6,10 @@ They benchmark their approach against [*Audio Set*](https://static.googleusercon
 
 * **AED**: Acoustic Event Detection
 * **VGGish**: Seem to be feature from a pretrained CNN? Not sure, but [link to repo here](https://github.com/tensorflow/models/tree/master/research/audioset/vggish)
+
+# How to run
+
+1. Download the [OpenMIC-2018 dataset](https://zenodo.org/record/1432913#.Y0rtuOxBw-Q) and add as a subfolder to `data` (`data/openmic-2018/all/goes/here`)
+2. Make sure you have Docker up and running, and open the project in Visual Studio Code.
+3. VSC *should* prompt for `Open project in .devcontainer?`
+4. Accept.
